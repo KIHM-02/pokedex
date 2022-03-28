@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Pokedex</title>
+</head>
+
+<body>
+    <section class="base-pokedex">
+        
+        <div class="botonesColores">
+            <div class="circuloAzul"></div>
+            <div class="circuloRed"></div>
+            <div class="circuloAmarillo"></div>
+            <div class="circuloVerde"></div>
+        </div>
+        <div class="separador"></div>
+
+        <div class="pantalla-container">
+            <div class="marco-pantalla">
+                <div class="pantalla">
+                    <img id="imgPokemon" class="imgPokemon-container" src="./img/pokeBola.png" alt="pantalla">
+                </div>
+            </div>
+        </div>
+
+        <div class="botones-controles">
+            <div class="circuloNegro"></div>
+            <div class="rectanguloRojo"></div>
+            <div class="rectanguloGris"></div>
+            <div class="cruz">
+                <img src="imgCruz" alt="Cruz">
+            </div>
+            <div>
+                <textarea name="descripcion" id="txtPokeName" cols="20" rows="3"></textarea>
+                <button onclick="fetchPokemon()" >Buscar pokemon</button>
+            </div>
+        </div> 
+
+    </section>    
+</body>
+
+</html>
